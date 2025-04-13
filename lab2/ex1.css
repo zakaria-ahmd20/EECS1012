@@ -1,0 +1,39 @@
+body {
+    border-style: solid;
+    border-color: green;
+    border-width: thick; 
+    }
+head {
+    border-style: solid;
+    border-color: red;
+    border-width: thick; 
+    } 
+h2.main {
+    border-style: solid;
+    border-color: orange;
+    border-width: thick;
+}
+
+#dates {
+    border-style: solid;
+    border-color: purple;
+    border-width: thick;
+}
+
+p {
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+p.footer {
+    border-style: solid;
+    border-color: orange;
+    border-width: thick;
+}
+
+div {
+    border-style: solid;
+    border-color: blue;
+    border-width: thick;
+}
+ 
