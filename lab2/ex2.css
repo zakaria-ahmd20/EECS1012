@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    border-style: solid;
+    border-color: green;
+    border-width: thick; 
+    background: url("images/background.gif");
+    margin-right: 10%;
+    margin-left: 10%;
+    }
+
+#section1 {
+    border-style: solid;
+    border-color: red;
+    background-color: rgb(255, 255, 255);
+    border-width: thick;
+     
+    } 
+#section2 {
+    border-style: solid;
+    border-color: orange;
+    border-width: thick;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    
+}
+
+h1.heading1 {
+    text-align: right;
+}
+
+#dates {
+    border-style: solid;
+    border-color: purple;
+    border-width: thick;
+
+}
+
+ 
+p.footer {
+    border-style: solid;
+    border-color: green;
+    border-width: thick;
+    background-color: white;
+ 
+}
+
+div {
+    border-style: solid;
+    border-color: blue;
+    border-width: thick;
+    background-color: rgb(196, 226, 255);
+    margin-top: 10px;
+    padding: 5px;
+
+ 
+     
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-end; /* Pushes image to the right */
+  }
+  
+
+  
