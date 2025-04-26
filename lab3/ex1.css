@@ -1,0 +1,61 @@
+a {
+    background-color: black;
+    font-family: monospace;
+    color: white;
+    text-decoration: none;
+    
+}
+#login{
+    text-align: right;
+}
+
+/* Container that holds the image and form, making them stack vertically */
+.image-container {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    justify-content: center; /* Optionally center horizontally */
+    align-items: center;     /* Optionally center vertically */
+}
+
+/* Form container */
+.login-form-section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+ 
+
+}
+
+
+#main {
+    border: 2px solid black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;  /* Stack image and form vertically */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+input[type="text"] {
+    width: 240px;
+  }
+  
+  input[type="email"] {
+    width: 240px;
+  }
+  
+  input[type="password"] {
+    width: 240px;
+  }
+  
+  input[type="submit"] {
+    width: 240px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+  }
+  
+
