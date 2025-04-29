@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nerd Shirt</title>
+  <link href="lab3_ex2.css" type="text/css" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div id="Select-Shirt-form">
+    <form action="https://www.eecs.yorku.ca/~mbrown/EECS1012/buyShirt.php"> 
+      <fieldset>
+        <legend>Select Shirt</legend>
+
+        <div id="Shirt">
+          <img src="tshirt.png" alt="tshirt">
+        </div>
+
+        <!-- Color (Matches 'color') -->
+        <div class="Shirt-form-radio">
+          <input type="radio" id="White" name="color" value="white">
+          <label for="White">White</label>
+
+          <input type="radio" id="Red" name="color" value="Red">
+          <label for="Red">Red</label>
+
+          <input type="radio" id="Blue" name="color" value="Blue">
+          <label for="Blue">Blue</label>
+
+          <input type="radio" id="Green" name="color" value="Green">
+          <label for="Green">Green</label>
+        </div>
+
+        <!-- Size (Matches 'size') -->
+        <div class="Shirt-form-pull">
+          <label for="size">Choose a size:</label>
+          <select name="size" id="size">
+            <option value="small">small</option>
+            <option value="medium">medium</option>
+            <option value="large">large</option>
+            <option value="XL">XL</option>
+          </select>
+        </div>
+
+        <!-- Payment Information -->
+        <div class="creditcardtype-div">
+          <fieldset>
+            <legend>Payment</legend>
+
+            <!-- Card Type (Matches 'cardType') -->
+            <input type="radio" id="Mastercard" name="cardType" value="Mastercard">
+            <label for="Mastercard">Mastercard</label>
+
+            <input type="radio" id="American-Express" name="cardType" value="am">
+            <label for="American-Express">American-Express</label>
+
+            <input type="radio" id="visa" name="cardType" value="visa">
+            <label for="visa">Visa</label>
+
+            <br><hr><br>
+
+            <!-- Credit Card Number (Matches 'cc1', 'cc2', 'cc3', 'cc4') -->
+            <label for="cc1">Card number:</label>
+            <input type="text" id="cc1" name="cc1">
+            <input type="text" id="cc2" name="cc2">
+            <input type="text" id="cc3" name="cc3">
+            <input type="text" id="cc4" name="cc4">
+
+            <hr>
+
+            <!-- Expiration (Matches 'month' and 'year') -->
+            <label for="month">Expiration:</label>
+            <label for="month">Month (MM)</label>
+            <input type="text" id="month" name="month">
+            <label for="year">Year (YY)</label>
+            <input type="text" id="year" name="year">
+          </fieldset>
+        </div>
+      </fieldset>
+      <br>
+      <div>
+        <label for="submit">Submit Order</label>
+        <input id="submit" type="submit" value="Submit">
+      
+        <input id="reset" type="reset">
+        <label id="reset" for="reset">Reset</label>
+      </div>
+  
+    </form>
+  </div>
+  </body>
+  </html>
